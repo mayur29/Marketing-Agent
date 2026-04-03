@@ -73,6 +73,14 @@ This creates:
 - one new sample campaign file in `knowledge/`
 - the standard output file set in `outputs/`
 
+To track progress through the standard workflow for a campaign, use:
+
+```bash
+python3 scripts/run_workflow.py --slug pos
+```
+
+This shows which expected workflow files already exist and which one should be completed next.
+
 Make sure the input includes:
 
 - business goal

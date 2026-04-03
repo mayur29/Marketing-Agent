@@ -62,6 +62,7 @@ The agents should work as a coordinated system:
 
 - run the sample campaign through the workflow in `RUN_WORKFLOW.md`
 - use `scripts/scaffold_campaign.py` to create a new campaign workspace quickly
+- use `scripts/run_workflow.py` to track stage completion for a campaign slug
 - add a fuller CLI or script runner for agent orchestration
 - connect the workflow to real research and analytics sources
 - expand from V1 agents to channel-specific specialists
