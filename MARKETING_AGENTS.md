@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Build a system of AI marketing agents that can take over a meaningful portion of a modern marketing team's recurring work while keeping a human in control of strategy, brand risk, budget, and final approvals.
+Build a system of AI marketing agents for DISH that can take over a meaningful portion of recurring hospitality marketing work while keeping a human in control of strategy, brand risk, budget, and final approvals.
 
 This document is the first working definition of:
 
@@ -14,7 +14,7 @@ This document is the first working definition of:
 
 ## Vision
 
-Create an AI-native marketing operating system where specialized agents handle research, planning, content production, campaign execution support, reporting, and optimization.
+Create an AI-native marketing operating system for DISH where specialized agents handle hospitality research, planning, content production, campaign execution support, reporting, and optimization.
 
 The goal is not to replace human judgment entirely.
 The goal is to reduce low-leverage manual work, increase speed, improve consistency, and let humans focus on positioning, creative direction, partnerships, and high-stakes decisions.
@@ -39,18 +39,19 @@ The system should help us:
 - Shared memory across agents
 - Measurable outputs tied to business goals
 - Approval gates for publishing, spend, and customer-facing claims
+- Multi-language consistency (DE/EN) as a core constraint
 - Traceability for why an agent made a recommendation
 
 ## Problems We Want These Agents To Solve
 
-Most marketing teams lose time to:
+Hospitality marketing teams lose time to:
 
-- repetitive campaign planning
+- repetitive campaign planning across products, markets, and languages
 - rewriting similar copy for multiple channels
 - scattered market and competitor research
 - slow feedback loops between strategy, content, design, and analytics
 - weak continuity between campaign performance and future planning
-- inconsistent messaging across assets
+- inconsistent messaging across products such as POS, reservations, ordering, and websites
 - reporting that describes results but does not produce action
 
 ## Scope
@@ -93,6 +94,7 @@ Responsibilities:
 - translate business goals into marketing priorities
 - decide campaign themes and major bets
 - assign work to specialist agents
+- oversee localization strategy (DE/EN)
 - review cross-channel coherence
 - escalate decisions that need human approval
 

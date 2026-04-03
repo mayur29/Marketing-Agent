@@ -13,6 +13,12 @@
 - Who is this campaign for?
 - Which ICP, segment, or persona is the priority?
 
+## Market and Language
+
+- Which country or market is this campaign for?
+- What is the primary language?
+- What tone register should be used, such as DE `Sie`, DE `Du`, or EN?
+
 ## Offer
 
 - What product, service, or offer is being promoted?
@@ -78,3 +84,13 @@
 ## Notes
 
 - Additional context, dependencies, or assumptions
+
+## Approval Status
+
+- Draft, pending review, approved, or blocked
+
+## Handoff Package
+
+- Which agent should receive this brief next?
+- What exact output is expected from that agent?
+- What context must be preserved in the handoff?
