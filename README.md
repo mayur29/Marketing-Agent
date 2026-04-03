@@ -66,3 +66,11 @@ The agents should work as a coordinated system:
 - add a fuller CLI or script runner for agent orchestration
 - connect the workflow to real research and analytics sources
 - expand from V1 agents to channel-specific specialists
+
+## Testing
+
+Run the CLI smoke tests with:
+
+```bash
+python3 -m unittest tests/test_cli.py
+```

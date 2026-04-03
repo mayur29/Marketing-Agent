@@ -81,6 +81,12 @@ python3 scripts/run_workflow.py --slug pos
 
 This shows which expected workflow files already exist and which one should be completed next.
 
+To run the basic CLI smoke tests, use:
+
+```bash
+python3 -m unittest tests/test_cli.py
+```
+
 Make sure the input includes:
 
 - business goal
