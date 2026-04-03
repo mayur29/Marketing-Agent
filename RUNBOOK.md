@@ -59,6 +59,20 @@ Use an existing file in `knowledge/` or create a new one modeled after:
 - `knowledge/sample-campaign-reservation.md`
 - `knowledge/sample-campaign-pos.md`
 
+For faster setup, you can scaffold a new campaign workspace with:
+
+```bash
+python3 scripts/scaffold_campaign.py \
+  --slug website \
+  --product "DISH Website" \
+  --campaign-name "DISH Website DE Demand Push"
+```
+
+This creates:
+
+- one new sample campaign file in `knowledge/`
+- the standard output file set in `outputs/`
+
 Make sure the input includes:
 
 - business goal
